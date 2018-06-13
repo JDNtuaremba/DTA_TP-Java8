@@ -4,8 +4,19 @@ public class Account {
 
     private Person owner;
     private Integer balance;
+    
+    public Account(Person owner) {
+		super();
+		this.owner = owner;
+	}
 
-    public Person getOwner() {
+    public Account(Person owner, Integer balance) {
+		super();
+		this.owner = owner;
+		this.balance = balance;
+	}
+
+	public Person getOwner() {
         return owner;
     }
 
@@ -17,7 +28,8 @@ public class Account {
         return balance;
     }
 
-    public void setBalance(Integer balance) {
+
+	public void setBalance(Integer balance) {
         this.balance = balance;
     }
 }
