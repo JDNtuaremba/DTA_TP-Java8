@@ -14,7 +14,8 @@ public class Function_07_Test {
     // TODO ex. "(10+11)=21", "(5-2)=3"
     String format(int nb1, int nb2, String symbol, IntBinaryOperator operator) {
         // TODO
-        return null;
+    	
+        return "("+nb1+symbol+nb2+"="+")";
     }
     // end::format[]
 
